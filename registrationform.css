@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+body{
+    background-color: #fff;
+    margin: 3em 5em 3em 5em;
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    font-weight: 50;
+    border-radius: 10px;
+}
+h1{
+    margin-left: 1em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+nav{
+    display: flex;
+    margin: 2em 0 2em 0;
+    border: 1px solid rgba(128, 128, 128, 0.945);
+
+}
+    
+
+
+ li{
+    display: inline-block;
+    margin-left: 10em;
+    padding: 1em ;
+    border: 1px solid gray;
+
+}
+h2{
+    margin-bottom: 2em;
+    margin-left: 1em;
+}
+main{
+    display: flex;
+
+
+}
+.col-1 label:after { 
+    content:"*";
+    color: red;
+ }
+.col-1{
+    display: block;
+    margin-right: 3em;
+    margin-left: 2em;
+}
+.col-2 label:after { 
+    content:"*";
+    color: red;
+ }
+.col-2{
+margin-left: 2.5em;
+}
+.CS{
+    display: inline-flex;
+}
+.CS input{
+    padding: 1.2em 0.5em;
+    margin-top: 1.5em;
+    margin-left: -2.2em;
+    /* border-radius: 2px; */
+    outline: none;
+    /* border: none; */
+}
+.col-3 label:after { 
+    content:"*";
+    color: red;
+ }
+form{
+    width: 60%
+
+}
+
+input{
+    padding: 17px 100px;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    /* border-radius: 5px; */
+}
+small{
+    padding-bottom: 3em;
+    margin-left: 2em;
+
+}
+footer{
+    display: flex;
+    margin-left: 50rem;
+
+}
+footer button{
+    display: inline-block;
+    margin: 2em 2em;
+    padding: 1.5em 5em;
+    color: #fff;
+    font-weight: 300px;
+    border-radius: 4px;
+    margin-top: 4em;
+font: 200;}
+#cancelbtn{
+    background-color: grey;
+}
+#contbtn{
+    background-color: green;
+}

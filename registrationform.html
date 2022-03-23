@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN&SIGN UP</title>
+    <link rel="stylesheet"href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"/>
+    <link rel="stylesheet" href="registrationform.css">
+</head>
+<body>
+    <h1>Agent Registration</h1>
+    <nav>
+        <ul>
+            <li>Personal Details</li>
+            <li>Agency Details</li>
+            <li>Contact Person Details</li>
+            <li>Work Order Scope</li>
+        </ul>
+    </nav>
+
+    <h2>Profile Information</h2>
+    <main>
+        <div class="col-1">
+            <form action="">
+            <label for="A_name">Agency Name</label>
+            <input type="text" name="Agency name" id="A_name">
+            <br>
+            <label for="Add">Address</label>
+            <input type="text" name="Add" id="Add">
+            <br>
+            <label for="num">Toll-Free Number</label>
+            <input type="number" name="num" id="num">
+            <br>
+            <label for="C_name">Company Number</label>
+            <!-- <img src="./image/calender (1).svg" alt=""> -->
+            <!-- <div><i class="uil uil-adjust-circle"></i></div> -->
+            <i class="uil uil-adjust-circle"></i>
+            <input type="text" name="Com name" id="C_name">
+            </form>
+        </div>
+        <div class="col-2">
+            <form action="">
+            <label for="A_Type">Agency Type</label>
+            <input type="text" name="Agency type" id="A_Type">
+            <div class="CS"><label for="city">City</label><br>
+            <input type="text" name="city" id="city">
+            <label for="state">State</label>
+            <input type="text" name="state" id="state"></div>
+            <label for="email">Email ID</label>
+            <input type="text" name="email" id="email">
+            <label for="O_space">Office Space</label>
+            <input type="checkbox" name="O " id="O_space" value="Owned">
+            <label for="O_space">Office Space</label>
+            <input type="checkbox" name="R " id="O_space" value="Rental">
+            
+            </form>
+        </div>
+        <div class="col-3">
+            <form action="">
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd">
+            <label for="numb">Telephone Number</label>
+            <input type="number" name="number" id="numb">
+            <label for="web">Website</label>
+            <input type="text" name="web" id="web">
+            <label for="logo">Company Logo</label>
+            <input type="file" name="logo" id="logo" placeholder="choose file">
+            </form>
+        </div>
+    </main>
+    <small>In order to process your registration, we ask yoou to provide the folloeing information.Please note thet all fields marked with an asterik(*)are required</small>
+<footer>
+    <button type="submit" id="cancelbtn">CANCEL</button>
+    <button type="submit" id="contbtn">CONTINUE</button>
+</footer>
+</body>
+</html>
